@@ -1,0 +1,6 @@
+CREATE TABLE todo
+(
+    id INT PRIMARY KEY AUTO_INCREMENT ,
+    task VARCHAR(100) NOT NULL,
+    date DATE NOT NULL
+)
